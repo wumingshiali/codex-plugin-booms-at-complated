@@ -1,0 +1,3 @@
+# Codex local settings (permissions, etc.)
+.codex/settings.local.json
+.codex/local.json

@@ -1,0 +1,18 @@
+{
+  "description": "When Codex finishes a response (Stop event), play the creeper boom sound.",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File \"%PLUGIN_ROOT%\\hook-play.ps1\"",
+            "async": true,
+            "timeout": 30,
+            "statusMessage": "Playing creeper boom sound"
+          }
+        ]
+      }
+    ]
+  }
+}

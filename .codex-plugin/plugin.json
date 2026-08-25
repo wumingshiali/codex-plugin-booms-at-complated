@@ -1,0 +1,18 @@
+{
+  "name": "booms-at-completed",
+  "version": "1.0.0",
+  "description": "当 Codex 模型完成响应（Stop 事件）时自动播放 creeper 爆炸音效",
+  "author": {
+    "name": "幽浮喵"
+  },
+  "license": "MIT",
+  "interface": {
+    "displayName": "Booms at Completed",
+    "shortDescription": "模型完成响应时播放 creeper 爆炸音效",
+    "longDescription": "当 Codex 触发 Stop 事件（模型完成响应）时自动播放 creeper 爆炸音效。使用 Windows PresentationCore 播放，无需额外依赖。仅支持 Windows 平台。",
+    "developerName": "幽浮喵",
+    "category": "Productivity",
+    "capabilities": ["Stop hook"],
+    "defaultPrompt": ["播放 creeper 爆炸音效"]
+  }
+}
